@@ -16,4 +16,6 @@
     <li><strong>Books with animal in title:</strong> {{ num_animal_books }}</li>
   </ul>
 
+  <p>You have visited this page {{ num_visits }}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
+
 {% endblock %}
